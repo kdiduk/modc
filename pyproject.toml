@@ -1,0 +1,11 @@
+[project]
+name = "modc"
+version = "26.10.7"
+
+[project.scripts]
+modc = "modc:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest"
+]
